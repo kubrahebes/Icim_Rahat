@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ogretmenadi"
+        android:hint="Öğretmen Adı"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mezunolduguokul"
+        android:layout_marginTop="20dp"
+        android:hint="Mezun Oldugu Üniversite"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/istecrubesi"
+        android:hint="İş Tecrubesi kaç Yıl"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/danısman"
+        android:layout_marginTop="20dp"
+        android:hint="Hangi sınıfın Danışmanı"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/kaydet"
+        android:text="Kaydet"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Adıyaman">
+        <item>Merkez </item>
+        <item>Besni </item>
+        <item>Kahta </item>
+        <item>Sincik </item>
+        <item>Çelikhan </item>
+        <item>Gerger </item>
+        <item>Gölbaşı </item>
+        <item>Samsat </item>
+    </string-array>
+    <string-array name="Afyonkarahisar">
+        <item>Başmakçı</item>
+        <item>Bayat</item>
+        <item>Bolvadin</item>
+        <item>Çay</item>
+        <item>Çobanlar</item>
+        <item>Dazkırı</item>
+        <item>Dinar</item>
+        <item>Emirdağ</item>
+    </string-array>
+    <string-array name="Ankara">
+        <item>Akyurt</item>
+        <item>Altındağ</item>
+        <item>Ayaş</item>
+        <item>Çankaya</item>
+        <item>Beypazarı</item>
+        <item>Çamlıdere</item>
+        <item>Çubuk</item>
+        <item>Etimesgut</item>
+    </string-array>
+    <string-array name="Antalya">
+        <item>Akseki</item>
+        <item>Aksu</item>
+        <item>Alanya</item>
+        <item>Demre</item>
+        <item>Döşemealtı</item>
+        <item>Elmalı</item>
+        <item>Finike</item>
+        <item>Gazipaşa</item>
+    </string-array>
+    <string-array name="Artvin">
+        <item>merkez</item>
+        <item>Ardanuç</item>
+        <item>Arhavi</item>
+        <item>Hopa</item>
+        <item>Murgul</item>
+        <item>Şavşat</item>
+        <item>Yusufeli</item>
+        <item>Borçka</item>
+
+    </string-array>
+    <string-array name="Aydın">
+        <item>Bozdoğan</item>
+        <item>Buharkent</item>
+        <item>Çine</item>
+        <item>Didim</item>
+        <item>Efeler</item>
+        <item>Germencik</item>
+        <item>İncirliova</item>
+        <item>Karacasu</item>
+    </string-array>
+    <string-array name="Balıkesir">
+        <item>Altıeylül</item>
+        <item>Ayvalık</item>
+        <item>Balya</item>
+        <item>Bandırma</item>
+        <item>Bigadiç</item>
+        <item>Burhaniye</item>
+        <item>Dursunbey</item>
+        <item>Edremit</item>
+    </string-array>
+    <string-array name="Bolu">
+        <item>merkez</item>
+        <item>Gerede</item>
+        <item>Mudurnu</item>
+        <item>Göynük</item>
+        <item>Mengen</item>
+        <item>Yeniçağa</item>
+        <item>Seben</item>
+        <item>Kıbrıscık</item>
+    </string-array>
+    <string-array name="Bursa">
+        <item>Osmangazi</item>
+        <item>Nilüfer</item>
+        <item>Büyükorhan</item>
+        <item>Yıldırım</item>
+        <item>Gemlik</item>
+        <item>Gürsu</item>
+        <item>Harmancık</item>
+        <item>İnegöl</item>
+    </string-array>
+    <string-array name="Denizli">
+        <item>Acıpayam</item>
+        <item>Babadağ</item>
+        <item>Baklan</item>
+        <item>Bekilli</item>
+        <item>Beyağaç</item>
+        <item>Bozkurt</item>
+        <item>Buldan</item>
+        <item>Çal</item>
+    </string-array>
+    <string-array name="Düzce">
+        <item>Merkez</item>
+        <item>Cumayeri</item>
+        <item>Cumayeri</item>
+        <item>Çilimli</item>
+        <item>Gümüşova</item>
+        <item>Kaynaşlı</item>
+        <item>Yığılca</item>
+        <item>Akçakoca</item>
+    </string-array>
+    <string-array name="Gaziantep">
+        <item>Nizip</item>
+        <item>Nurdağı</item>
+        <item>Oğuzeli</item>
+        <item>Şahinbey</item>
+        <item>İslahiye</item>
+        <item>Araban</item>
+        <item>Oğuzeli</item>
+        <item>Yavuzeli</item>
+
+    </string-array>
+    <string-array name="iller">
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Aydın</item>
+        <item>Artvin</item>
+        <item>Afyonkarahisar</item>
+        <item>Bursa</item>
+        <item>Balıkesir</item>
+        <item>Bolu</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Denizli</item>
+        <item>Düzce</item>
+        <item>Adıyaman</item>
+        <item>Gaziantep</item>
+        <item>Şanlıurfa</item>
+
+    </string-array>
+    <string-array name="Çanakkale">
+        <item>merkez</item>
+        <item>Ayvacık</item>
+        <item>Bayramiç</item>
+        <item>Biga</item>
+        <item>Bozcaada</item>
+        <item>Çan</item>
+        <item>Eceabat</item>
+        <item>Ezine</item>
+    </string-array>
+    <string-array name="Çankırı">
+        <item>merkez</item>
+        <item>Atkaracalar</item>
+        <item>Bayramören</item>
+        <item>Çerkeş</item>
+        <item>Eldivan</item>
+        <item>Ilgaz</item>
+        <item>Kızılırmak</item>
+        <item>Korgun</item>
+    </string-array>
+    <string-array name="Şanlıurfa">
+        <item>Karakopru</item>
+        <item>Haliliye</item>
+        <item>Eyübiye</item>
+        <item>Birecik</item>
+        <item>Siverek</item>
+        <item>Viranşehir</item>
+        <item>Halfeti</item>
+        <item>Suruç</item>
+    </string-array>
+
+</resources>

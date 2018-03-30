@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/profil_resim"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/linearLayout"
+                android:layout_toRightOf="@+id/linearLayout"
+                android:background="@drawable/tek_insan" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.71"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/btnokuladi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="Comic Sans MS"
+                    android:text="Okul Adı"
+                    android:textAlignment="center"
+                    android:textSize="15dp" />
+                      <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnduzenle"
+                    android:layout_width="147dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Profili Düzenle"
+                    android:textColorHint="@color/colorPrimaryDark" />
+                    <Button
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                        android:id="@+id/btnekle"
+                     android:layout_marginTop="20dp"
+                     android:layout_marginLeft="5dp"
+                     android:background="@drawable/add"/>
+              </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/resimlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

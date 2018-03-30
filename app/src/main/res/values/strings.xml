@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Icim Rahat</string>
+    <string name="title_activity_kullanici_sayfasi">kullanici_sayfasi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_resim_ayarla">Resim_ayarla</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

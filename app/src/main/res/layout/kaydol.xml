@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="165dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/indir" />
+    <EditText
+        android:id="@+id/kullanici"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/tw__composer_white"
+        android:hint="KULLANICI ADI" />
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/tw__composer_white"
+        android:hint="ŞİFRE"
+        android:inputType="textPassword" />
+    <RadioGroup
+        android:id="@+id/tercih"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/tercihveli"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Veli"
+            android:textSize="15dp" />
+        <RadioButton
+            android:id="@+id/tercihissahibi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Is Sahibi"
+            android:textSize="15dp" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/kaydol"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.01"
+        android:backgroundTint="#008080"
+        android:text="KAYDOL"
+        android:textSize="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "261363166969",
+    "firebase_url": "https://icim-rahat.firebaseio.com",
+    "project_id": "icim-rahat",
+    "storage_bucket": "icim-rahat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261363166969:android:b99b11abf1c176db",
+        "android_client_info": {
+          "package_name": "com.example.teka.icim_rahat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261363166969-sevcct1lbuhligdfoh4gtihniqcvldnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teka.icim_rahat",
+            "certificate_hash": "8ec4d98309db135511b880264193b0db8d5944a1"
+          }
+        },
+        {
+          "client_id": "261363166969-ee4rird62rg8as5efa1s0d7625ged2ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD1VPnHqK3YieNgCkKd0gydIH3rerwTbo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261363166969-ee4rird62rg8as5efa1s0d7625ged2ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
